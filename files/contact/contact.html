@@ -1,10 +1,9 @@
-header 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="contact.css">
     <script src="'shop.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,11 +37,56 @@ header
     <hr id = 'hrtop'>
     <hr id="hrbot">
 
-    HEADER END 
+    <section class="contact">
+        <h1>Get in touch</h1>
+        <table>
+            <tr>
+                <td><img id="loc" src="/media/location (1).svg" alt=""></td>
+                <td><img id="call" src="/media/walkeetalkee.svg" alt=""></td>
+                <td><img id="letter" src="/media/letter (1).svg" alt=""></td>
+            </tr>
 
-    FOOOTER 
+            <tr>
+                <td> <p id="addp">Address: 22-4-900, opposite southwood cafe</p></td>
+                <td> <p id="callp">Phone no.: 040-4532180</p></td>
+                <td><p id="mailp">Email: Northwoodcoffee@hotmail.com</p></td>
+            </tr>
+        </table>
+        
+        <div class="input">
+            <form>
+                
+                
+                <div class="lni">
+                <label for="fname">First name</label>
+                <input type="text" id="fname" for="fname">
+                <label for="lname">Last name</label>
+                <input type="text" id="lname" for="lname">
+                <br>
+                <label for="email">Enter email</label>
+                <input type="email" id="email" for="email">
+                <br>
+                <label for="msg">Enter your message</label>
+                <input type="text" id="msg" for="msg">
+                <br>
+                <input type="submit" name="" id="">
+                </div>
+            </form>
+            <img src="/media/background.png" alt="">
+        </div>
+    </section>
+<div class="lol" style="background-color: #530030;">
+    <p>
 
 
+
+
+
+    </p>
+</div>
+    
+<hr id = 'hrtoprev'>
+<hr id="hrbotrev">
     <footer>
         <!--FONT AWESOME-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -76,177 +120,4 @@ header
 </div>
 </div>
 </footer>
-    </footer>
-
-
-    CSSSSS
-
-    CSS FOR <HEADER>
-    </HEADER>
-
-
-    body {font-family: 'Oswald', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Shippori Mincho B1', serif;
-padding: 0px;
-margin: 0px;
-}
-
-#hrtop{
-    border-top: 7px #530030 dotted;
-    margin: 0;
-    background-color: #FE6A40;
-    border-bottom: 0px;
-    opacity: 100;
-}
-#hrbot{
-    border-bottom: 7px #FE6A40 dotted;
-    margin:0;
-    background-color: #530030;
-    border-top: 0px;
-    opacity: 100;
-}
-
-#hrbotrev{
-    border-top: 7px #530030 dotted;
-    margin: 0;
-    background-color: #FE6A40;
-    border-bottom: 0px;
-    opacity: 100;
-}
-#hrtoprev{
-    border-bottom: 7px #FE6A40 dotted;
-    margin:0;
-    background-color: #530030;
-    border-top: 0px;
-    opacity: 100;
-}
-
-
-/** HEADER **/
-
-header{
-    
-    padding: 0px;
-    margin: 0px;
-}
-
-.logo-bar{
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    height: 130px;
-}
-
-#logo {
-    width: 250px;
-    margin: 5px;
-    display: inline;
-    position: absolute;
-    right: 50%;
-    left: 45%;
-    margin-top: 25px;
-    z-index: 10;
-    
-}
-
-#logo-bg{
-    width:100%;
-    height: 130px;
-    margin: 5px;
-    display: inline;
-    z-index: 0;
-    margin: 0;
-    padding: 0;
-    background-image: radial-gradient(circle, rgba(254,106,64,1) 16%, rgba(0,212,255,0) 100%);
-
-}
-
-.header-anchors{
-    display: block;
-    text-align:center;
-    right: 50%;
-    left: 50%;
-    padding: 30px;
-    background-color: #FE6A40;
-    margin: 0px;
-}
-
-.header-anchors > a{
-    padding: 5px;
-    color:#530030;
-    font-weight: 1000;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 10px;
-    padding-left: 10px;
-    transition: 0.3s;
-    text-decoration: none;
-}
-
-.header-anchors > a:hover{
-    background-color: #530030;
-    color: #FE6A40;
-    transition: 0.333s;
-}
-
-
-CSS FOR FOOOOOTEEERRRR
-
-.footer{
-    background:#FE6A40;
-    padding:30px 0px;
-    font-family: 'Play', sans-serif;
-    text-align:center;
-    }
-    
-    .footer .row{
-    width:100%;
-    margin:1% 0%;
-    padding:0.6% 0%;
-    color:gray;
-    font-size:0.8em;
-    display: inline;
-    
-    }
-    
-    .footer .row a{
-    text-decoration:none;
-    color:#530030;
-    transition:0.3s;
-    }
-    
-    .footer .row a:hover{
-    color:#fff;
-    }
-    
-    .footer .row ul{
-    width:100%;
-    margin-top: 10px;
-    }
-    
-    .footer .row ul li{
-    display:inline-block;
-    margin:0px 30px;
-    }
-    
-    .footer .row a i{
-    font-size:2em;
-    margin:0% 1%;
-    }
-    
-    @media (max-width:720px){
-    .footer{
-    text-align:left;
-    padding:5%;
-    }
-    .footer .row ul li{
-    display:block;
-    margin:10px 0px;
-    text-align:left;
-    }
-    .footer .row a i{
-    margin:0% 3%;
-    }
-    }
-    
+</body>
