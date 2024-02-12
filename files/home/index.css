@@ -110,13 +110,12 @@ body {font-family: 'Oswald', sans-serif;
     background-color: #530030;
     text-align: center;
     margin: 0;
-    padding: 0;
+    padding: 10px;
    }
    
 
    .welcome > p{
     padding: 8px;
-    padding-bottom: 0;
     margin-bottom: 0;
     color: #FE6A40;
    }
@@ -148,6 +147,11 @@ body {font-family: 'Oswald', sans-serif;
     background-color: #530030;
 }
 
+.tdimg:hover{
+    width: 250px;
+    transition: 0.3s;
+}
+
 #table{
     margin-left: auto;
     margin-right: auto;
@@ -159,6 +163,12 @@ body {font-family: 'Oswald', sans-serif;
 #control{
     top: 250px;
 }
+
+.td-a{
+    color: #FE6A40;
+}
+
+
 /*** shop section end ***/
 
 /*** Location ***/

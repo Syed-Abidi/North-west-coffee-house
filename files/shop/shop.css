@@ -126,10 +126,17 @@ header{
     width: 200px;
 }
 
+.tdimg:hover{
+    width: 250px;
+    transition: 0.3s;
+}
+
 #table{
     margin-left: auto;
     margin-right: auto;
 }
+
+
 
 /** COFFEE MENU END **/
 
